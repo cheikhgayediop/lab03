@@ -1,0 +1,97 @@
+:root {
+    --color-senregal1: #205562;
+    --color-senregal2:#e9e9e9;
+    --color-senregal3:#141d28;
+    --color-senregal4: #0082e6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    text-decoration: none;
+    font-family: "poppins";
+   
+}
+
+body {
+    background-color: #037187;
+    /* background-color: linear-gradient(90deg, rgba(6,53,82,1) 0%, rgba(43,184,245,1) 19%, rgba(22,107,176,0.9127690397350994) 38%, rgba(75,125,135,1) 75%); */
+      
+}
+nav {
+    background-color: var(--color-senregal1);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 2px solid var(--color-senregal2);
+    box-shadow: 0px 0px 10px var(--color-senregal3);
+}
+
+label.logocd {
+    color: var(--color-senregal2);
+    text-shadow: 0px 2px 6px var(--color-senregal3);
+    font-size: 35px;
+    line-height: 80px;
+    padding-left: 140px;
+    font-weight: 600;
+}
+
+nav ul {
+    float: right;
+    margin-right: 60px;
+    box-shadow: 0px 0px 10px var(--color-senregal3);
+    border-bottom: 1.5px solid var(--color-senregal2);
+    
+}
+
+nav ul li {
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 10px;
+     
+}
+
+nav ul li a {
+    color: var(--color-senregal4);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    background: var(--color-senregal2);
+    text-decoration: none;
+    transition: 0.3s;
+    clip-path: polygon(
+        100% 0,
+        100% 35%,
+        100% 50%,
+        100% 65%,
+        100% 100%,
+        0 100%,
+        0 65%,
+        0 50%,
+        0 35%,
+        0 0
+    );
+}
+
+nav ul li a:hover {
+    color: var(--color-senregal1);
+     clip-path: polygon(
+        100% 0,
+        100% 35%,
+        90% 50%,
+        100% 65%,
+        100% 100%,
+        0 100%,
+        0 65%,
+        10% 50%,
+        0 35%,
+        0 0
+    );
+}
+
+ 
+ 
+ 
